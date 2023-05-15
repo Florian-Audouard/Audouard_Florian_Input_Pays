@@ -1,0 +1,7 @@
+<div>
+    <label>Pays :</label>
+    <input #inputPays type="text" (blur)="onBlur()" (focus)="handleSearch()">
+    <ul class="countryList" *ngIf="currentCountry.length > 0">
+        <li (click)="handleClick($event)" *ngFor="let country of currentCountry"> {{ country }}</li>
+    </ul>
+</div>

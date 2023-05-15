@@ -1,0 +1,17 @@
+.countryList{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    width: 300px;
+    position: absolute;
+    top:35px;
+    left: 45px;
+}
+.countryList > li{
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.countryList > li:hover{
+    background-color: lightslategray;
+}
